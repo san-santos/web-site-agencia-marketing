@@ -1,0 +1,47 @@
+.formDimensions{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs{
+    font-family: Poppins;
+    color: #333333;
+    font-size: 16px;
+    margin-top: 12px;
+    padding-left: 12px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.2);
+}
+
+.areatext{
+    font-family: Poppins;
+    color: #333333;
+    font-size: 16px;
+    margin-top: 12px;
+    padding-left: 12px;
+    height: 100px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.2);
+}
+
+.checkbox{
+    margin-right: 12px;
+    margin-top: 4px;
+}
+
+span{
+    width: 100%;
+    height: 35px;
+    border: 1px solid red;
+    border-radius: 4px;
+    margin-top:12px;
+    font-family: Poppins;
+    font-size: 16px;
+    color:#333333;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

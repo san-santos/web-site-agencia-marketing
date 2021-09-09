@@ -1,0 +1,33 @@
+.desligado {
+    display: none; 
+}
+
+.ligado {
+    background-color: #fefefe;
+    transition: all ease 0.3s; 
+    width: 850px;
+    height: 400px;   
+}
+
+.exit{
+    font-family: Poppins;
+    font-weight: bold;
+    color: #333333;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;    
+}
+
+.Title{
+    font-family: Poppins;
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+}
+
+.info{
+    font-family: Poppins;
+    font-size: 18px;
+    color: #333333;
+    margin-top: 24px;
+}

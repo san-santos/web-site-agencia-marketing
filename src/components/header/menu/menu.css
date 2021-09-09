@@ -1,0 +1,45 @@
+.activateColor{
+    background-color: #fefefe;
+    transition: all ease 0.3s;    
+}
+
+.inactiveColor{
+    background-color: transparent;
+    transition: all ease 0.3s; 
+}
+
+.textColorBlack{
+    color: #333333;
+    transition: all ease 0.3s;
+}
+
+.textColorWhite{
+    color: #fefefe;
+    transition: all ease 0.3s;
+}
+
+.nav-item > .active {
+    border-bottom: 3px solid rgb(179, 0, 0);
+}
+
+.nav-home> .active {
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+@media (max-width: 415px){
+    .textColorWhite{
+        color:#fefefe;
+    }
+
+    .textColorBlack{
+        color: #fefefe;
+    }
+
+    .activateColor{
+        background-color: transparent; 
+    }
+
+    .inactiveColor{
+        background-color: transparent;
+    }
+}
